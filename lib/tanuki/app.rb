@@ -3,7 +3,9 @@
 module Tanuki
     # Sinatra application
     class App < Sinatra::Base
-  
+    
+      set :aws, 'AKIALALEMEL310220LIA'
+
       set :logging, true
       set :static, true
       set :public_dir, File.expand_path('static', __dir__)

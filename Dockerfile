@@ -1,4 +1,4 @@
-FROM ruby:2.6.8
+FROM ruby:3.0.3
 
 ADD . /Sinatra-Docker
 WORKDIR /Sinatra-Docker

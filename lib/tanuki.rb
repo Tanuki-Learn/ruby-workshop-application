@@ -3,5 +3,4 @@
 # Gems
 require 'sinatra'
 
-# So Nice
 require 'tanuki/app'
